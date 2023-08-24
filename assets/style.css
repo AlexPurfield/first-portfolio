@@ -5,6 +5,7 @@
 :root{
     font-family: fantasy;
     font-size: 62.5%;
+    border-radius: 30%; 
     box-sizing: border-box;
     color: #37306b;
     
@@ -20,7 +21,7 @@
     font-size: 2rem;
     background-color: #d27685;
 }
-/* line items need to be inline-flex with space between and smaller margins */
+/* line items need to be inline-flex with space between and smaller margins for nav bar */
 li{
     display: inline-flex;
     justify-content: space-between;
@@ -42,7 +43,7 @@ li{
     font-size: 3rem;
 }
 
-
+    /* profile pic for About Me section */
 
 img{
     display: -webkit-box; margin-left: auto;
@@ -62,6 +63,7 @@ p{
     font-size: 2rem;}
 
 
+/* footer */
 #contactme {
     display: flex;
     justify-content: space-between;
@@ -73,7 +75,7 @@ p{
     color:#d27685;
     
 }
-
+/* work section with images with titles for apps, tranparent on hover, and linked (a href=# since we have no apps yet) */
 #work {overflow:auto;
     margin: 1rem;
     padding: 20px;
@@ -86,7 +88,7 @@ height: auto;}
 
 .pic-large {display: inline-block;
 position:relative;
-width: 65.99%;
+width: 70%;
 margin-left: 30%;
 }
 .pic-large .padding {
@@ -96,7 +98,7 @@ margin-left: 30%;
 .pic-small {
     display: inline-block;
     position:relative;
-    width:32.8%;
+    width:30% ;
     margin-right: 50%;
 }
 
@@ -118,7 +120,7 @@ margin-left: 30%;
 .h-space {
     display: inline-block;
     position: relative;
-    width:32.3333333%;
+    width:30%;
     margin-top: 30%;
     
 }
@@ -132,6 +134,8 @@ margin-left: 30%;
     flex-wrap: wrap ;
 
 }
+
+/* titles for app images */
 .centered {
     position: absolute;
     top: 50%;
@@ -142,26 +146,26 @@ margin-left: 30%;
     color: #fff  
     }
 
+
+/* make images transparent when hovered over */
+
 img:hover {opacity: .5;
 }
-@media screen and (max-width: 992px) {
-    .card {
-    width: 50%;
-    }
-    /* Change the header color */
-    header {
-    background: #8ac4ff;
-    }}
 
-  /* Cards are stacked on top of each other at 768px or smaller */
+/* fit to phone and change colors */
+
+
 @media screen and (max-width: 768px) {
-    .card {
+    .work {
     width: 100%;
     }
-    /* Change the header color */
     header {
-    background: #8ac4ff;
+    background:blueviolet;
     }
+    .centered {font-size: 75%;}
+    .header {background: pink;}
+    
 }
 
 
+    
