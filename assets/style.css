@@ -76,6 +76,7 @@ p{
     
 }
 /* work section with images with titles for apps, tranparent on hover, and linked (a href=# since we have no apps yet) */
+
 #work {overflow:auto;
     margin: 1rem;
     padding: 20px;
