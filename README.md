@@ -7,3 +7,6 @@ My name is Alex Purfield and this is my first portfolio using css and html. For 
 # My Portfolio
 For my portfolio, I started with a wireframe I made with excalidraw, moved on to the html outline and then started on the css styling. The most difficult part was absolutely the flex boxes for the "work" section. I am happy with how the media, and links came out as well as the color palette.
 
+# sources
+
+For flex boxes: https://stackoverflow.com/questions/29651865/perfectly-align-1-large-image-with-2-small-ones-next-two-it-in-a-flexible-contai
